@@ -1,0 +1,39 @@
+/*BlogCardOne*/
+
+.blogCardOne {
+    width: 100%;
+    min-height: 300px;
+    border: solid 1px var(--grey);
+    position: relative;
+    transition: all 0.5s ease-in-out;
+}
+
+.blogCardOne-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.blogCardOne-thumbnail {
+    object-fit: cover;
+    width: 100%;
+    height: 50%;
+}
+
+.blogCardOne-body {
+    margin: 10px;
+}
+
+.blogCardOne-header {
+    gap: 10px;
+}
+
+.blogCardOne-infos {
+    height: 50px;
+}
+
+.blogCardOne-views {
+    gap: 10px;
+}

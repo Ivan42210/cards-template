@@ -1,0 +1,29 @@
+/*backgrounds*/
+
+.bg-primary {
+    background: var(--primary);
+}
+
+.bg-secondary {
+    background: var(--secondary);
+}
+
+.bg-tertiary {
+    background: var(--tertiary);
+}
+
+.bg-success {
+    background: var(--success);
+}
+
+.bg-warning {
+    background: var(--warning);
+}
+
+.bg-dark {
+    background: var(--dark);
+}
+
+.bg-light {
+    background: var(--light);
+}
