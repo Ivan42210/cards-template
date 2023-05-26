@@ -37,3 +37,47 @@
 .blogCardOne-views {
     gap: 10px;
 }
+
+/* blogCardTwo */
+
+.blogCardTwo {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    background: var(--primary);
+}
+
+.blogCardTwo-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.blogCardTwo-thumbnail {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+
+.blogCardTwo-body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.blogCardTwo-views {
+    display: flex;
+    gap: 10px;
+}
