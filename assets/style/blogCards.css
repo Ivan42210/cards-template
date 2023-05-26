@@ -8,6 +8,10 @@
     transition: all 0.5s ease-in-out;
 }
 
+.blogCardOne:hover {
+    transform: scale(1.03);
+}
+
 .blogCardOne-link {
     position: absolute;
     top: 0;
@@ -47,6 +51,7 @@
     overflow: hidden;
     border-radius: 10px;
     background: var(--primary);
+    transition: background 0.5s ease-in-out;
 }
 
 .blogCardTwo-link {
@@ -77,7 +82,15 @@
     gap: 15px;
 }
 
+.blogCardTwo-text {
+    width: 60%;
+}
+
 .blogCardTwo-views {
     display: flex;
     gap: 10px;
+}
+
+.blogCardTwo:hover {
+    background: var(--secondary);
 }
